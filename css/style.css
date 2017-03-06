@@ -23,14 +23,16 @@ header {
 }
 
 ul {
-	text-align: left;
+	text-align: center;
 }
 
 hr{
-	color:blue;
+	color:black;
+	
 }
 
 .jumbotron {
+	
 	display: block;
 	position: fixed;
 	z-index: 2;
@@ -145,7 +147,7 @@ main {
 	left: 0px;
 	top: 135px;
 	
-	background-color: #053175;
+	background-color: #6699ff;
 }
 
 .clearfix {
@@ -303,5 +305,11 @@ padding-right: 20px;
 .smaller-image {
 	height:200px;
 	width:250px;
+	
+}
+
+.smallest-image{
+	height:50px;
+	width:50px;
 	
 }
