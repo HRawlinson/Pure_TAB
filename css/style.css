@@ -1,3 +1,5 @@
+
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -23,6 +25,14 @@ header {
 }
 
 ul {
+	text-align: center;
+}
+ 
+.align-left{
+	text-align:left;
+	
+}
+li{
 	text-align: center;
 }
 
@@ -85,7 +95,7 @@ hr{
 }
 
 .nav-tile {
-	width: 250px;
+	width: 30%;
 	min-height: 300px;
 	border: 2px solid black;
 	display: inline-block;
@@ -152,10 +162,18 @@ main {
 	width: 100%;
 	position: absolute;
 	left: 0px;
-	top: 190px;
+	top: 210px;
 	
-	background-color: #6699ff;
+	
+	
+	
+	
 }
+.background{
+	background-image:url("images/blueprint.jpg");
+	
+}
+
 
 .clearfix {
 	overflow: auto;
@@ -307,9 +325,19 @@ iframe {
 }
  
 .header-pic {
+	height: 150px;
+	width: 33%;
+	padding:0px;
+	border:0px;
+}
+
+
+
+.mirror-header-pic {
 	height: 120px;
 	width: 350px;
 	padding-right: 20px;
+	transform:scale(-1,1);
 }
 
 .smaller-image {
@@ -326,7 +354,7 @@ iframe {
 
 .header-logo {
 	width: 100%;
-	padding-top: 10px;
+	
 	overflow: auto;
 }
 
@@ -334,4 +362,9 @@ iframe {
 	width: 100%;
 	overflow: auto;
 	height: auto;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
 }
